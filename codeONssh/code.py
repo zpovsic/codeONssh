@@ -22,13 +22,15 @@ class CodeONssh:
         self._start_server()
         self._run_code()
 
-    def _install_code(self):
+    @staticmethod
+    def _install_code():
         subprocess.run(
             ["wget", "https://code-server.dev/install.sh"], stdout=subprocess.PIPE
         )
         subprocess.run(["sh", "install.sh"], stdout=subprocess.PIPE)
 
-    def _install_extensions(self):
+    @staticmethod
+    def _install_extensions():
         for ext in EXTENSIONS:
             subprocess.run(["code-server", "--install-extension", f"{ext}"])
 

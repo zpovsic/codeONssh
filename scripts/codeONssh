@@ -7,7 +7,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="CodeONssh: Run Code On Colab / Kaggle Notebooks"
     )
-    parser._action_groups.pop()
+    parser.action_groups.pop()
     required = parser.add_argument_group("required arguments")
     optional = parser.add_argument_group("optional arguments")
 

@@ -1,1 +1,2 @@
-pyngrok=4.1.11
+setuptools~=52.0.0
+pyngrok~=5.1.0

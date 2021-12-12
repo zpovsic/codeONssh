@@ -50,7 +50,7 @@ $ CodeONssh()
 $ CodeONssh(port=10000, password="Your password", mount_drive=True)
 ```
 ## How to use it?
-CodeONssh starter notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhishekkrthakur/colabcode/blob/master/colab_starter.ipynb)
+CodeONssh starter notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/zpovsic/codeONssh/blob/master/colab_starter.ipynb)
 
 ## License
 
